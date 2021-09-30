@@ -1,0 +1,713 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+:root{
+    /*Colores*/
+    --Primary-blue: #1A9AF7;
+    --bg-black: #0F0D16;
+    --black: #000;
+    --Soft-black: #212125;
+    --just-white: #fff;
+    --line-gray: #BABABA;
+}
+
+body{
+    background-color: var(--bg-black)!important;
+}
+
+/*header*/
+header .navbar {
+    background-color: var(--bg-black);
+    padding: 27px 8px;    
+}
+
+header .navbar a{
+    display: flex;
+    align-items: center;
+}
+
+header .navbar a p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #fff;
+    margin: 0 0 0 8px;
+}
+
+header .navbar .container-menu{
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .container-menu a{
+    display: none;
+}
+
+header .navbar .container-menu .btn-primary{
+    background-color: transparent;
+    border:none;
+}
+
+header .navbar .offcanvas-top{
+    height: 95vh;
+}
+
+header .navbar .offcanvas{
+    background-color: var(--bg-black);
+}
+
+header .navbar .offcanvas .offcanvas-header{
+    padding: 2.4rem 1.6rem;
+    justify-content: center;
+}
+
+header .navbar .offcanvas .offcanvas-header .container-close{
+    width: 100%;
+    max-width: 50px;
+    background-color: var(--just-white);
+    border-radius: 24px;
+    padding: 0 6px;
+}
+
+header .navbar .offcanvas .offcanvas-body{
+    width: 100%;
+    padding: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    padding-left: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body ul li{
+    margin-bottom: 24px;
+}
+
+header .navbar .offcanvas .offcanvas-body ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    line-height: 7.2rem;
+    color: var(--just-white);
+    text-decoration: none;
+}
+
+header .navbar .offcanvas .offcanvas-body .container-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body .container-contact p{
+    font-size: 1.8rem;
+    line-height: 2.0;
+    color: var(--just-white);
+}
+/*header*/
+
+main{
+    padding-top: 89px;
+}
+
+/*title*/
+#container-card--title{
+    background: url(../assests/mobile/bg-header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+#container-card--title .card-title--body{    
+    color: var(--just-white);
+    padding: 41px 0 36px;
+}
+
+#container-card--title .card-title--body h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+}
+
+#container-card--title .card-title--body p{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+#container-card--title .card-title--body .vr{
+    opacity: 1;
+}
+/*title*/
+
+/*profile*/
+#container-profile .container-profile{
+    background-color: var(--just-white);
+    border-radius: 16px;
+    padding: 24px 16px;   
+}
+
+#container-profile .container-profile .info-profile--detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-profile .container-profile .info-profile--detail .container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-profile .container-profile .info-profile--detail .container-title .detail-title{
+    text-align: center;
+}
+
+#container-profile .container-profile .info-profile--detail .container-title .detail-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 0.07em;
+    margin-top: 8px;   
+    margin-bottom: 0;
+ }
+
+ #container-profile .container-profile .info-profile--detail .container-title .detail-title small{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-bottom: 0;
+ }
+
+ #container-profile .container-profile .info-profile--detail p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    text-align: center;
+ }
+
+ #container-profile .container-profile .info-profile--detail .profile-btn a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+    text-decoration: none;
+ }
+
+ #container-profile .container-profile .info-profile--detail .profile-btn{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }
+
+ #container-profile .container-profile .info-profile--detail .profile-btn span{
+    background-image: url(../assests/icons/arrow.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 39px;
+ }
+
+ #container-profile .container-profile .info-profile-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    border-top: 0.5px solid var(--line-gray);
+    padding-top: 24px;
+}
+
+#container-profile .container-profile .info-profile-contact .profile-info{
+    text-align: center;
+ }
+
+ #container-profile .container-profile .info-profile-contact .profile-info p{
+    margin: 0;
+ }
+
+ #container-profile .container-profile .info-profile-contact .profile-info .phone-number{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 4px;
+ }
+
+ #container-profile .container-profile .info-profile-contact .profile-info .email{
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+ }
+/*profile*/
+
+/*web*/
+#container-work-web .vr{
+    background-color: var(--just-white);
+    margin-left: 28px;
+    opacity: 1;
+}
+
+#container-work-web .work-web-title{
+    margin-bottom: 24px;
+}
+
+#container-work-web .work-web-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    color: var(--just-white);
+}
+
+#container-work-web .work-web-title p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    text-transform: uppercase;
+}
+
+#container-work-web .container-websOne{
+    margin-bottom: 16px;
+}
+
+#container-work-web .container-websOne, .container-webTwo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+#container-work-web img{
+    width: 100%;
+}
+
+/*web*/
+
+/*apps*/
+#container-work-mobile .vr{
+    background-color: var(--just-white);
+    margin-left: 28px;
+    opacity: 1;
+}
+
+#container-work-mobile .work-mobile-title{
+    margin-bottom: 24px;
+}
+
+#container-work-mobile .work-mobile-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    color: var(--just-white);
+}
+
+#container-work-mobile .work-mobile-title p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    text-transform: uppercase;
+}
+
+#container-work-mobile .container-appsOne, .container-appsTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-work-mobile .container-appsOne a, .container-appsTwo a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 44px 0;
+    background-color: var(--Soft-black);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+/*apps*/
+
+/*options*/
+#container-menu .container-options{
+    background-image: url(../assests/mobile/bg-options.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 90px 0;
+}
+
+#container-menu .container-options .container-work, .container-about{
+    display: flex;
+    justify-content: center;
+}
+
+#container-menu .container-options .container-work a, .container-about a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13.0rem;
+    line-height: 13.2rem;
+    color: var(--just-white);
+    text-align: center;
+    margin-bottom: 45px;
+    text-decoration: none;
+}
+/*options*/
+
+/*footer*/
+#footer{
+    background-color: var(--Soft-black);
+    border-radius: 34px 34px 0px 0px;
+    height: auto;
+    padding: 48px 16px;
+}
+
+#footer .container-contact{
+    display: flex;
+    flex-direction: column;
+    /*border-bottom: 1px solid var(--just-white);*/
+}
+
+#footer .container-contact .contact-title{
+    margin-bottom: 48px;
+}
+
+#footer .container-contact .contact-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+#footer .container-contact .contact-title h2 span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+    color: var(--Primary-blue);
+}
+
+#footer .container-contact .contact-info p{
+    font-size: 2.4rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+#footer .container-contact .contact-info p:last-child{
+    letter-spacing: 0.07em;
+    margin-bottom: 36px;
+}
+
+#footer .container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+}
+
+#footer .container-info .info-country{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+#footer .container-info .info-country p{
+    font-size: 1.4rem;
+    color: var(--just-white);
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+#footer .container-info .info-copy-right p{
+    font-size: 1.4rem;
+    color: var(--just-white);
+    margin-bottom: 0;
+}
+/*footer*/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+
+    /*title*/
+    #container-card--title{
+        background: url(../assests/tablet/bg-header.webp);
+    }
+
+    #container-card--title .card-title--body {
+        padding: 60px 0 30px;
+    }
+
+    #container-card--title .card-title--body h1{
+        font-size: 6.2rem;
+        line-height: 6.4rem;
+        letter-spacing: 0.07em;
+    }
+
+    #container-card--title .card-title--body p{
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    /*title*/
+
+    /*profile*/
+    #container-profile .container-profile {
+        padding: 32px 65px;
+    }
+
+    #container-profile .container-profile .info-profile--detail .container-title .detail-title h2{
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+        margin-top: 12px;
+    }
+
+    #container-profile .container-profile .info-profile--detail .container-title .detail-title small{
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    }
+
+    #container-profile .container-profile .info-profile--detail p{
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        margin: 32px 0;
+        padding: 0 4px;
+    }
+
+    #container-profile .container-profile .info-profile-contact{
+        margin-top: 32px;
+        padding-top: 32px;
+    }
+
+    #container-profile .container-profile .info-profile-contact .profile-info .phone-number{
+        font-size: 5rem;
+        line-height: 5.2rem;
+        margin-bottom: 8px;
+    }
+
+    #container-profile .container-profile .info-profile-contact .profile-info .email{
+        font-size: 3.6rem;
+        line-height: 3.8rem;
+    }
+    /*profile*/
+
+    /*web*/
+    #container-work-web .vr{
+        margin-left: 38px;
+    }
+
+    #container-work-web .container-websOne, .container-webTwo{
+        flex-direction: row;   
+        column-gap: 7px;     
+    }
+
+    #container-work-web .container-websOne .container-projectsOne a picture img, .container-webTwo .container-projectsFour a picture img{
+        width: 100%;
+        height: 100%;
+    }
+    /*web*/
+
+    /*apps*/
+    #container-work-mobile .vr{
+        margin-left: 38px;
+    }
+
+    #container-work-mobile .container-appsOne, .container-appsTwo{
+        flex-direction: row;        
+        column-gap: 20px;
+    }
+
+    #container-work-mobile .container-appsOne .container-projectTwo, .container-appsTwo .container-projectFour{
+        margin-left: 0;
+    }
+
+    #container-work-mobile .container-appsOne a, .container-appsTwo a{
+        padding: 41px 65px;
+    }
+    /*apps*/
+
+    /*options*/
+    #container-menu .container-options{
+        background-image: url(../assests/tablet/bg-options.webp);
+    }
+
+    #container-menu .container-options .container-work{
+        justify-content: flex-start;
+    }
+
+    #container-menu .container-options .container-about{
+        justify-content: flex-end;
+    }
+
+    #container-menu .container-options .container-work a, .container-about a{
+        margin-bottom: 0;
+    }
+    /*options*/
+
+    /*footer*/
+    #footer{
+        padding: 73px 66px 32px;
+    }
+
+    #footer .container-contact .contact-title h2{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #footer .container-contact .contact-title h2 span{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #footer .container-contact .contact-title{
+        margin-bottom: 36px;
+    }
+    /*footer*/
+}   
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+    /*header*/
+    header .navbar .container-menu a{
+        display: flex;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 0.08em;
+    }
+    /*header*/
+    
+    /*title*/
+    #container-card--title{
+        background-image: url(../assests/desktop/bg-header.webp);
+    }
+
+    #container-card--title .card-title--body{
+        padding: 83px 0 24px;
+    }
+
+    #container-card--title .card-title--body h1{
+        font-size: 7.2rem;
+        line-height: 7.4rem;
+        margin-bottom: 16px;
+    }
+    
+    #container-card--title .card-title--body p{
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+    /*title*/
+
+    /*profile*/
+    #container-profile .container-profile{
+        padding: 32px;
+        display: flex;
+    }
+
+    #container-profile .container-profile .info-profile--detail{
+        align-items: flex-start;
+        border-right: 1px solid var(--line-gray);
+    }
+
+    #container-profile .container-profile .info-profile--detail .container-title{
+        flex-direction: row;
+    }
+
+    #container-profile .container-profile .info-profile--detail .container-title .detail-title{
+        margin-left: 20px;
+        text-align: start;
+    }
+
+    #container-profile .container-profile .info-profile--detail .container-title .detail-title h2{
+        margin-top: 0;
+    }
+
+    #container-profile .container-profile .info-profile--detail p{
+        text-align: start;
+        padding: 0 16px 0 0;
+    }
+
+    #container-profile .container-profile .info-profile--detail .profile-btn{
+        justify-content: flex-end;
+    }
+
+    #container-profile .container-profile .info-profile-contact{
+        align-items: flex-end;
+        justify-content: flex-end;
+        border-top: none;
+    }
+
+    #container-profile .container-profile .info-profile-contact .profile-info{
+        text-align: end;
+    }
+    /*profile*/
+
+    /*webs*/
+    #container-work-web .work-web-title h2{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #container-work-web .work-web-title{
+        margin-bottom: 32px;
+    }
+    /*webs*/
+
+    /*apps*/
+    #container-work-mobile .work-mobile-title h2{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #container-work-mobile .container-appsOne a, .container-appsTwo a{
+        padding: 72px 65px;
+    }
+    /*apps*/
+
+    /*options*/
+    #container-menu .container-options{
+        background-image: url(../assests/desktop/bg-options.webp);
+    }
+
+    #container-menu .container-options .container-work a, .container-about a{
+        font-size: 22.2rem;
+        line-height: 22.4rem;
+    }
+    /*options*/
+
+    /*footer*/
+    #footer .container-contact{
+        flex-direction: row;
+    }
+
+    #footer .container-contact .contact-title{
+        margin-bottom: 62px;
+    }
+
+    #footer .container-contact .contact-title h2{
+        text-align: start;
+    }
+
+    #footer .container-contact .contact-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #footer .container-info{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    #footer .container-info .info-country{
+        margin-bottom: 0;
+    }
+
+    #footer .container-info .info-copy-right{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    /*footer*/
+
+}

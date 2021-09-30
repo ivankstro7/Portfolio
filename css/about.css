@@ -1,0 +1,452 @@
+*{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+:root{
+    /*Colores*/
+    --Primary-blue: #1A9AF7;
+    --bg-black: #0F0D16;
+    --black: #000;
+    --Soft-black: #212125;
+    --just-white: #fff;
+    --line-gray: #BABABA;
+}
+
+body{
+    background-color: var(--bg-black)!important;
+}
+
+/*header*/
+header .navbar {
+    background-color: var(--bg-black);
+    padding: 27px 8px;    
+}
+
+header .navbar a{
+    display: flex;
+    align-items: center;
+}
+
+header .navbar a p{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #fff;
+    margin: 0 0 0 8px;
+}
+
+header .navbar .container-menu{
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .container-menu a{
+    display: none;
+}
+
+header .navbar .container-menu .btn-primary{
+    background-color: transparent;
+    border:none;
+}
+
+header .navbar .offcanvas-top{
+    height: 95vh;
+}
+
+header .navbar .offcanvas{
+    background-color: var(--bg-black);
+}
+
+header .navbar .offcanvas .offcanvas-header{
+    padding: 2.4rem 1.6rem;
+    justify-content: center;
+}
+
+header .navbar .offcanvas .offcanvas-header .container-close{
+    width: 100%;
+    max-width: 50px;
+    background-color: var(--just-white);
+    border-radius: 24px;
+    padding: 0 6px;
+}
+
+header .navbar .offcanvas .offcanvas-body{
+    width: 100%;
+    padding: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    padding-left: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body ul li{
+    margin-bottom: 24px;
+}
+
+header .navbar .offcanvas .offcanvas-body ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    line-height: 7.2rem;
+    color: var(--just-white);
+    text-decoration: none;
+}
+
+header .navbar .offcanvas .offcanvas-body .container-contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+header .navbar .offcanvas .offcanvas-body .container-contact p{
+    font-size: 1.8rem;
+    line-height: 2.0;
+    color: var(--just-white);
+}
+/*header*/
+
+main{
+    padding-top: 89px;
+}
+
+/*title*/
+#container-card--title .card-title--body{    
+    color: var(--just-white);
+    padding-bottom: 36px;
+}
+
+#container-card--title .card-title--body .vr{ 
+    margin-left: 10px;
+    opacity: 1;
+}
+
+#container-card--title .card-title--body h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    margin-bottom: 36px;
+}
+
+#container-card--title .card-title--body .container-body{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-card--title .card-title--body .container-body p{
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.09em;
+    margin-bottom: 30px;
+    text-transform: lowercase;
+}
+/*title*/
+
+/*skills*/
+#container-skills .vr{
+    margin-left: 32px;
+    background-color: var(--just-white);
+    opacity: 1;
+}
+
+#container-skills .skills-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    color: var(--just-white);
+}
+
+#container-skills .skills-title p{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    text-transform: uppercase;
+}
+
+#container-skills .container-interface, .container-programming, .container-skillThree{
+    background-color: var(--Soft-black);
+    border-radius: 16px;
+    padding: 24px 16px;
+    margin-bottom: 24px;
+}
+
+#container-skills .container-interface h2, .container-programming h2, .container-skillThree h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    margin-bottom: 16px;
+}
+
+#container-skills .container-interface p, .container-programming p, .container-skillThree p{
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    letter-spacing: 0.09em;
+    color: var(--just-white);
+    margin-bottom: 24px;
+}
+
+#container-skills .container-interface .container-badge, .container-programming .container-badge, .container-skillThree, .container-badge{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-skills .container-programming .container-badge .badgesOne{
+    display: flex;
+}
+
+#container-skills .container-interface .container-badge .badge, .container-programming .container-badge .badge, .container-skillThree .container-badge .badge{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: normal;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+
+#container-skills .container-interface .container-badge .bg-secondary, .container-programming .container-badge .bg-secondary, .container-skillThree .container-badge .bg-secondary{
+    background-color: var(--just-white)!important;
+    color: var(--black);
+    border-radius: 0;
+}
+
+#container-skills .container-interface .container-badge .badgesTwo .badge, .container-programming .container-badge .badgesTwo .badge{
+    margin-bottom: 0;
+}
+
+#container-skills .container-skillThree .container-tools .container-badge .badgesOne span:last-child{
+    margin-bottom: 0;
+}
+/*skills*/
+
+/*footer*/
+#footer{
+    background-color: var(--Soft-black);
+    border-radius: 34px 34px 0px 0px;
+    height: auto;
+    padding: 48px 16px;
+}
+
+#footer .container-contact{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .container-contact .contact-title{
+    margin-bottom: 48px;
+}
+
+#footer .container-contact .contact-title h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+#footer .container-contact .contact-title h2 span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.0rem;
+    line-height: 3.2rem;
+    color: var(--Primary-blue);
+}
+
+#footer .container-contact .contact-info p{
+    font-size: 2.4rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+#footer .container-contact .contact-info p:last-child{
+    letter-spacing: 0.07em;
+    margin-bottom: 36px;
+}
+
+#footer .container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 36px;
+}
+
+#footer .container-info .info-country{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+#footer .container-info .info-country p{
+    font-size: 1.4rem;
+    color: var(--just-white);
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+#footer .container-info .info-copy-right p{
+    font-size: 1.4rem;
+    color: var(--just-white);
+    margin-bottom: 0;
+}
+/*footer*/
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+
+    #container-card--title .card-title--body .vr{ 
+        margin-left: 30px;
+    }
+
+    /*footer*/
+    #footer{
+        padding: 73px 66px 32px;
+    }
+
+    #footer .container-contact .contact-title h2{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #footer .container-contact .contact-title h2 span{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }
+
+    #footer .container-contact .contact-title{
+        margin-bottom: 36px;
+    }
+    /*footer*/
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
+    /*header*/
+    header .navbar .container-menu a{
+        display: flex;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 0.08em;
+    }
+    /*header*/
+
+    /*title*/
+    #container-card--title .card-title--body{
+        padding-bottom: 115px;
+    }
+    #container-card--title .card-title--body h1{
+        font-size: 8rem;
+        line-height: 8.2rem;
+        padding-right: 54px;
+        margin-bottom: 60px;
+    }
+
+    #container-card--title .card-title--body .vr{ 
+        margin-left: 60px;
+    }
+
+    #container-card--title .card-title--body .container-body{
+        flex-direction: row;
+    }
+
+    #container-card--title .card-title--body .container-body p{
+        font-size: 1.8rem;
+        line-height: 2rem;
+        margin-bottom: 0;
+    }
+
+    #container-card--title .card-title--body .container-body .horizontal-line{
+        height: 150px;
+        display: flex;
+        align-items: center;
+    }
+
+    #container-card--title .card-title--body .container-body .horizontal-line div{ 
+        width: 510px;
+        border-top: 1px solid var(--just-white);
+    }
+    /*title*/
+
+    /*skills*/
+    #container-skills .skills-title h2{
+        font-size: 4.8rem;
+        line-height: 5rem;
+    }
+
+    #container-skills .container-interface, .container-programming, .container-skillThree{
+        padding: 48px;
+    }
+
+    #container-skills .container-columnTwo{
+        display: flex;
+        column-gap: 20em;
+    }
+
+    #container-skills .container-columnTwo .container-skillTwo, .container-skillThree{
+        max-width: 542px;
+    }
+
+    #container-skills .container-columnTwo .container-skillTwo .container-programming .container-badge{
+        flex-direction: row;
+    }
+
+    #container-skills .container-columnTwo .container-skillThree{
+        margin-left: 0;
+    }
+
+    #container-skills .container-columnTwo .container-skillThree p{
+        margin-bottom: 44px;
+    }
+    /*skills*/
+
+    /*footer*/
+    #footer{
+        padding: 73px 66px 32px;
+    }
+
+    #footer .container-contact{
+        flex-direction: row;
+    }
+
+    #footer .container-contact .contact-title h2{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+        text-align: start;
+    }
+
+    #footer .container-contact .contact-title h2 span{
+        font-size: 4.8rem;
+        line-height: 5.0rem;
+    }    
+
+    #footer .container-contact .contact-title{
+        margin-bottom: 36px;
+    }
+
+    #footer .container-contact .contact-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #footer .container-info{
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    #footer .container-info .info-country{
+        margin-bottom: 0;
+    }
+
+    #footer .container-info .info-copy-right{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    /*footer*/
+}

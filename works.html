@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/works.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Works</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+        <nav class="col navbar border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./assests/icons/logo.webp" alt="">
+                    <p>IVAN CASTRO - WEBDESIGNER</p>
+                </a>   
+                <div class="container-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                    <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 18H30C30.825 18 31.5 17.55 31.5 17C31.5 16.45 30.825 16 30 16H6C5.175 16 4.5 16.45 4.5 17C4.5 17.55 5.175 18 6 18ZM6 13H30C30.825 13 31.5 12.55 31.5 12C31.5 11.45 30.825 11 30 11H6C5.175 11 4.5 11.45 4.5 12C4.5 12.55 5.175 13 6 13ZM4.5 7C4.5 7.55 5.175 8 6 8H30C30.825 8 31.5 7.55 31.5 7C31.5 6.45 30.825 6 30 6H6C5.175 6 4.5 6.45 4.5 7Z" fill="white"/>
+                    </svg>                        
+                    <a class="btn btn-primary">MENU</a>
+                </div>               
+                <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                    <div class="offcanvas-header">
+                        <div class="container-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M27.45 8.56508C26.865 7.98008 25.92 7.98008 25.335 8.56508L18 15.8851L10.665 8.55008C10.08 7.96508 9.13499 7.96508 8.54999 8.55008C7.96499 9.13508 7.96499 10.0801 8.54999 10.6651L15.885 18.0001L8.54999 25.3351C7.96499 25.9201 7.96499 26.8651 8.54999 27.4501C9.13499 28.0351 10.08 28.0351 10.665 27.4501L18 20.1151L25.335 27.4501C25.92 28.0351 26.865 28.0351 27.45 27.4501C28.035 26.8651 28.035 25.9201 27.45 25.3351L20.115 18.0001L27.45 10.6651C28.02 10.0951 28.02 9.13508 27.45 8.56508V8.56508Z" fill="#0F0D16"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="container-nav">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="works.html">Works</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                        </ul>
+                        <div class="container-contact">
+                            <p class="phone-number">+57 318 788 3380</p>
+                            <p class="email">ivankstro7@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="container-title">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container-title--projects text-center">
+                        <h1>My projects</h1>                                      
+                    </div>
+                </div>                                
+            </div>   
+        </section>
+        <section id="container-projects">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="projects-tabs d-flex justify-content-center">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                              <p id="web-btn" class="nav-link active">Webs</p>
+                            </li>
+                            <li class="nav-item">
+                              <p id="apps-btn" class="nav-link">Apps</p>
+                            </li>
+                          </ul>
+                    </div>
+                    <div id="container-web">
+                        <div class="container-projects--card One">                    
+                            <a href="./detalle_web/kangoocare.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--1.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--1.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">Kangoocare</h2>
+                                    <p class="card-text text-uppercase">web design and kindergarten administrative panel</p>
+                                </div>                            
+                            </a>     
+                            <a href="./detalle_web/becca.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--2.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--2.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">BeccaSoftware</h2>
+                                    <p class="card-text text-uppercase">accounting admin panel</p>
+                                </div>                            
+                            </a>                                       
+                        </div>
+                        <div class="container-projects--card Two">                    
+                            <a href="./detalle_web/cards.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--3.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--3.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">virtual cards</h2>
+                                    <p class="card-text text-uppercase">personalized business cards</p>
+                                </div>                            
+                            </a>     
+                            <a href="./detalle_web/routes.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--4.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--4.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">Panama routes</h2>
+                                    <p class="card-text text-uppercase">Route manager panel</p>
+                                </div>                            
+                            </a>                                       
+                        </div>
+                        <div class="container-projects--card Three">                    
+                            <a href="./detalle_web/daxso.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--5.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--5.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">Daxso</h2>
+                                    <p class="card-text text-uppercase">e-commerce business</p>
+                                </div>                            
+                            </a>     
+                            <a href="./detalle_web/thedoger.html" class="card col-xxl-6">
+                                <picture>
+                                    <source media="(min-width:767px)" srcset="./assests/tablet/works/web/work-tablet--6.png" alt="...">
+                                    <img src="./assests/mobile/works/web/work-mobile--6.webp" alt="...">
+                                </picture>
+                                <div class="card-body">
+                                    <h2 class="card-title">The doger</h2>
+                                    <p class="card-text text-uppercase">e-commerce business</p>
+                                </div>                            
+                            </a>                                       
+                        </div>
+                    </div>
+                    <div id="container-apps">
+                        <div class="container-projects--card One">                    
+                            <a href="./detalle_app/reggat.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appOne">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--1.webp" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--1.webp" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">Reggat</h2>
+                                    <p class="card-text text-uppercase">e-commerce business</p>
+                                </div>                            
+                            </a>     
+                            <a href="./detalle_app/kangoocare.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appTwo">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--2.webp" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--2.webp" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">Kangoocare app</h2>
+                                    <p class="card-text text-uppercase">app design and kindergarten administrative panel</p>
+                                </div>                            
+                            </a>
+                        </div>
+                        <div class="container-projects--card Two">
+                            <a href="./detalle_app/chargick.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appThree">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--3.webp" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--3.webp" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">Chargick</h2>
+                                    <p class="card-text text-uppercase">App design for the installation of charging points for electric cars</p>
+                                </div>                            
+                            </a>  
+                            <a href="./detalle_app/descomplicate.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appFour">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--4.webp" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--4.webp" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">Descomplicate</h2>
+                                    <p class="card-text text-uppercase">app design to manage paperwork</p>
+                                </div>                            
+                            </a>
+                        </div>                                
+                        <div class="container-projects--card Three">
+                            <a href="./detalle_app/theDoger_app.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appFive">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--5.webp" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--5.webp" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">The doger</h2>
+                                    <p class="card-text text-uppercase">e-commerce business</p>
+                                </div>                            
+                            </a>      
+                            <a href="./detalle_app/rednblue.html" class="card col-lg-6 col-xxl-6">
+                                <div class="container-picture appSix">
+                                    <picture>
+                                        <source media="(min-width:767px)" srcset="./assests/tablet/works/apps/work-app--6.png" alt="...">
+                                        <img src="./assests/mobile/works/apps/work-app--6.png" alt="...">
+                                    </picture>
+                                </div>                                
+                                <div class="card-body">
+                                    <h2 class="card-title">RED -N- BLUE</h2>
+                                    <p class="card-text text-uppercase">Delivery App</p>
+                                </div>                            
+                            </a> 
+                        </div>                 
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="container-history">
+            <div id="history-web">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-flex offset-1 col-10 offset-md-1 col-md-10" style="height: 115px;">
+                            <div class="vr"></div>
+                        </div>
+                        <div class="history-title offset-1 col-10 offset-md-1 col-md-10">
+                            <h2>More work</h2>
+                            <p class="text-uppercase">More of my UI design work in recent years</p>   
+                        </div>  
+                        <div class="container-projects-card offset-1 col-10">
+                            <div class="projects-card-list ">
+                                <h2>2021</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>UX I-Drone Project</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Dashboard</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Roberto Ocando Morales</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Guatemala</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>PayRoll</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Administrative panel for payroll payment</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Financial T.A.I</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Estados Unidos</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>TariTaxi</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Administrative panel for the registration of taxi drivers</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Uzziel Garcia</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Improving skills</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">I start my studies in HTML and programming to expand my services as a designer</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Platzi</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Virtual classes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects-card-list ">
+                                <h2>2020</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>OAC</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Dashboard for social networks</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Rodolfo Ibarra</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Guatemala</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Coin2Pesos</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">cryptocurrency administrative panel</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Financial T.A.I</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Estados Unidos</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Central Mix</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">administrative panel of construction materials and equipment</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Cronapis</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Panamá</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects-card-list ">
+                                <h2>2019</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Instituto distrital de patrimonio cultural</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">web design for the mayor's office of Bogota</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Andres Castro</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Colombia</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>chargick</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">web design for the installation of charging points for electric cars</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Sergi Majo Alvarez</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">España</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Facedate</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Mobile dating app landing page</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Pablo Rodriguez</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">España</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Cactux</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Web design for digital agency</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Carlota Gallés</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">España</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects-card-list ">
+                                <h2>2018</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>uptribe</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Web design for business consultancies</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Hector Sepulveda</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Pogen data</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Web design sales statistics</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Pogen</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Intellipos</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Restaurant management software landing page</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">PeruCreativo</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Peru</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>IBES</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Consulting web design for business</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">PeruCreativo</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Peru</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Summun inmobiliaria</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">corporate real estate web design</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">PeruCreativo</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Peru</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+            <div id="history-apps">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-flex offset-1 col-10 offset-md-1 col-md-10" style="height: 115px;">
+                            <div class="vr"></div>
+                        </div>
+                        <div class="history-title offset-1 col-10 offset-md-1 col-md-10">
+                            <h2>More work</h2>
+                            <p class="text-uppercase">More of my UI design work in recent years</p>   
+                        </div>  
+                        <div class="container-projects-card offset-1 col-10">
+                            <div class="projects-card-list ">
+                                <h2>2021</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Denarius</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">E-commerce business</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">DevIT</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>MotoNet</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">intermediation platform between various types of users</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Rigoberto Arriaza</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Bolivia</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects-card-list ">
+                                <h2>2020</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>BeccaSoftware</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Dashboard</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">J&A international law firm</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">España</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Kriptxor</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">cryptocurrency administrative panel</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Cronapis</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Panama</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>PSB</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Crypto finance app</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Cronapis</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Panamá</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Covid-19</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">control panel to generate registry of people infected with covid-19</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Uzziel Garcia</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="projects-card-list ">
+                                <h2>2019</h2>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>InterAgro</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">E-commerce</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Rigoberto Arriaza</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Bolivia</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Patrona</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">employee payroll app</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Uzziel Garcia</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Angel Laboral</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Dashboard</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Uzziel Garcia</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Mexico</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>RednBlue</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Delivery App</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Cronapis</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Panama</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Facedate</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Date App</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Pablo Rodriguez</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">España</li>
+                                    </ul>
+                                </div>
+                                <div class="card-list-body border-bottom ">
+                                    <h2>Wiepper</h2>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">E-commerce</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Cronapis</li>
+                                        <div class="vr"></div>
+                                        <li class="list-group-item">Panama</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                  
+                    </div>
+                </div>
+            </div>
+        </section>          
+    </main>
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container-contact border-bottom col-12">
+                    <div class="contact-title col-xl-6">
+                        <h2>Need help with a project ?<br><span>Let’s talk!</span></h2>
+                    </div>
+                    <div class="contact-info col-xl-6">
+                        <p class="phone">+57 318 788 3380</p>
+                        <p class="email">ivankstro7@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-info col-12">
+                    <div class="info-country col-xl-6">
+                        <img src="./assests/icons/location.svg" alt="">
+                        <p>CALI, COLOMBIA</p>
+                    </div>
+                    <div class="info-copy-right col-xl-6">
+                        <p>© 2021 Ivankstro. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./switch.js"></script>    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+  </body>
+</html>

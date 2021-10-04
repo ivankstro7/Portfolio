@@ -115,14 +115,6 @@ main{
 }
 
 /*title*/
-#container-title{
-    background: url(../assests/mobile/works/bg-header.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;    
-}
-
 #container-title .container-title--projects{
     color: var(--just-white);
     padding: 41px 0;
@@ -382,10 +374,6 @@ main{
 @media (min-width: 768px){
 
     /*title*/    
-    #container-title{
-        background-image: url(../assests/tablet/bg-header.webp);
-    }
-
     #container-title .container-title--projects{
         padding: 58px 0;
     }
@@ -472,12 +460,6 @@ main{
         letter-spacing: 0.08em;
     }
     /*header*/
-
-    /*title*/
-    #container-title{
-        background-image: url(../assests/desktop/bg-header.webp);
-    }
-    /*title*/
 
     /*projects*/
     #container-projects .container-projects--card{

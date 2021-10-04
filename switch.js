@@ -20,7 +20,7 @@ function showApps() {
 
 function showWeb() {
     apps.style.display = "none"
-    web.style.display = "block"
+    web.style.display = "flex"
     historyApps.style.display = "none"
     historyWeb.style.display = "block"
     appsBtn.classList.remove("active")

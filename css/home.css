@@ -249,12 +249,12 @@ main{
 /*web*/
 #container-work-web .vr{
     background-color: var(--just-white);
-    margin-left: 28px;
     opacity: 1;
 }
 
 #container-work-web .work-web-title{
     margin-bottom: 24px;
+    text-align: center;
 }
 
 #container-work-web .work-web-title h2{
@@ -286,12 +286,12 @@ main{
 /*apps*/
 #container-work-mobile .vr{
     background-color: var(--just-white);
-    margin-left: 28px;
     opacity: 1;
 }
 
 #container-work-mobile .work-mobile-title{
     margin-bottom: 24px;
+    text-align: center;
 }
 
 #container-work-mobile .work-mobile-title h2{

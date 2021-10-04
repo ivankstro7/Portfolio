@@ -493,6 +493,10 @@ main{
         flex-direction: row;   
         column-gap: 7px;     
     }
+
+    #container-work-web img{
+        height: 100%;
+    }
     /*web*/
 
     /*apps*/

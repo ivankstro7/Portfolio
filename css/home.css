@@ -247,6 +247,11 @@ main{
 /*profile*/
 
 /*web*/
+#container-work-web .container-vr{
+    display: flex;
+    justify-content: center;
+}
+
 #container-work-web .vr{
     background-color: var(--just-white);
     opacity: 1;
@@ -284,6 +289,11 @@ main{
 /*web*/
 
 /*apps*/
+#container-work-mobile .container-vr{
+    display: flex;
+    justify-content: center;
+}
+
 #container-work-mobile .vr{
     background-color: var(--just-white);
     opacity: 1;
@@ -484,9 +494,15 @@ main{
     }
     /*profile*/
 
-    /*web*/
-    #container-work-web .vr{
-        margin-left: 38px;
+    /*web*/   
+    #container-work-web .container-vr{
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    #container-work-web .work-web-title{
+        text-align: start;
+        margin-left: 0;
     }
 
     #container-work-web .container-websOne, .container-webTwo{
@@ -496,8 +512,14 @@ main{
     /*web*/
 
     /*apps*/
-    #container-work-mobile .vr{
-        margin-left: 38px;
+    #container-work-mobile .container-vr{
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+    #container-work-mobile .work-mobile-title{
+        text-align: start;
+        margin-left: 0;
     }
 
     #container-work-mobile .container-appsOne, .container-appsTwo{
@@ -507,10 +529,6 @@ main{
 
     #container-work-mobile .container-appsOne .container-projectTwo, .container-appsTwo .container-projectFour{
         margin-left: 0;
-    }
-
-    #container-work-mobile .container-appsOne a, .container-appsTwo a{
-        padding: 41px 65px;
     }
     /*apps*/
 
@@ -651,10 +669,6 @@ main{
     #container-work-mobile .work-mobile-title h2{
         font-size: 4.8rem;
         line-height: 5.0rem;
-    }
-
-    #container-work-mobile .container-appsOne a, .container-appsTwo a{
-        padding: 72px 65px;
     }
     /*apps*/
 

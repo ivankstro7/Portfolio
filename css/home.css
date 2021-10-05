@@ -317,7 +317,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 44px 0;
+    padding: 44px 36px;
     background-color: var(--Soft-black);
     border-radius: 16px;
     margin-bottom: 20px;

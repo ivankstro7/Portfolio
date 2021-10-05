@@ -420,13 +420,6 @@ main{
 }
 /*footer*/
 
-/*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px){
-    #container-work-mobile .container-appsOne a, .container-appsTwo a{
-        padding: 44px 88px;
-    }
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px){
 

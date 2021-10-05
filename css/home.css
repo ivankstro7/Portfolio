@@ -493,10 +493,6 @@ main{
         flex-direction: row;   
         column-gap: 7px;     
     }
-
-    #container-work-web img{
-        height: 100%;
-    }
     /*web*/
 
     /*apps*/
@@ -643,6 +639,11 @@ main{
 
     #container-work-web .work-web-title{
         margin-bottom: 32px;
+    }
+
+    #container-work-web .container-projectsOne{
+        display: flex;
+        justify-content: flex-end;
     }
     /*webs*/
 
